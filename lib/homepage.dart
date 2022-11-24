@@ -1,4 +1,5 @@
 import 'package:animation_expansive/controller/controller.dart';
+import 'package:animation_expansive/controller/controller2.dart';
 import 'package:animation_expansive/widget/container_expansive.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,7 @@ class _MyHomePageState extends State<MyHomePage>
   late ControllerAnimation controller;
   int? indexSelected;
   int? oldIndex;
+  late ControllerAnimationWidget controller2;
 
   @override
   void initState() {
